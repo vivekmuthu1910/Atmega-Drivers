@@ -1,7 +1,7 @@
 # Atmega Drivers
 ## Prerequisites
-Add ___F_CPU___ to Project Symbols
+Add `F_CPU = xx` in Project Properties → Toolchain → AVR/GNU C Complier → Symbols where `xx` is the frequency of the *μC*.
 ## I2C Driver
-I2C driver enables user to use TWI interface to communicate with other _μC_ or sensors having I2C interface.
+I2C driver enables user to use TWI interface to communicate with other *μC* or sensors having I2C interface.
 ## UART Driver
-UART driver enables user to use TWI interface to communicate with other _μC_ or communication modules such as Bluetooth, Wi-Fi modules, etc.
+UART driver enables user to use TWI interface to communicate with other *μC* or communication modules such as Bluetooth, Wi-Fi modules, etc.
